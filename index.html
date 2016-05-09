@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+	<title>Angular Quiz Game</title>
+	
+	<script src="angular.js"></script>
+	<script src="app.js"></script>
+	<script src="directives.js"></script>
+	<script src="controllers.js"></script>
+	
+	<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="mainCtrl">
+<!-- 	<p id="hi">Hi</p>
+	<input type="text" ng-model="data.hi">a
+	<p>{{data.hello}}</p>
+	<p>{{data.hi}}</p> -->
+
+	<h3>Player Money: {{money.playerCurrentMoney}}</h3>
+	<input type="number" ng-model="money.betMoney">
+	<h2>You're betting: {{money.betMoney}}</h2>
+
+	<h3>Country: {{country.countryName}}</h3>
+	<h3>Population: {{country.population | number}} people</h3>
+	<h3>Capital: {{country.capital}}</h3>
+
+	<h3>TrickCountry1: {{trickCountry1.countryName}}</h3>
+	<h3>Population: {{trickCountry1.population | number}} people</h3>
+	<h3>Capital: {{trickCountry1.capital}}</h3>
+
+	<h3>TrickCountry2: {{trickCountry2.countryName}}</h3>
+	<h3>Population: {{trickCountry2.population | number}} people</h3>
+	<h3>Capital: {{trickCountry2.capital}}</h3>
+
+	<h3>TrickCountry3: {{trickCountry3.countryName}}</h3>
+	<h3>Population: {{trickCountry3.population | number}} people</h3>
+	<h3>Capital: {{trickCountry3.capital}}</h3>
+
+	<h3>TrickCountry4: {{trickCountry4.countryName}}</h3>
+	<h3>Population: {{trickCountry4.population | number}} people</h3>
+	<h3>Capital: {{trickCountry4.capital}}</h3>
+
+	<h3>TrickCountry5: {{trickCountry5.countryName}}</h3>
+	<h3>Population: {{trickCountry5.population | number}} people</h3>
+	<h3>Capital: {{trickCountry5.capital}}</h3>
+
+	<a-a></a-a>
+</body>
+</html>
