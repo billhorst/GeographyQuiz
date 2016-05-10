@@ -8,60 +8,60 @@ angular.module('controllers', [])
 	// 	alert($scope.data.hi);
 	// }
 
-	$scope.money = {
-		playerStartMoney: 100,
-		betMoney: 0,
-		playerWinMoney: 0,
-		playerCurrentMoney: 0
-	}
+	// $scope.money = {
+	// 	playerStartMoney: 100,
+	// 	betMoney: 0,
+	// 	playerWinMoney: 0,
+	// 	playerCurrentMoney: 0
+	// }
 
-	$scope.startGame = function() {
-		$scope.money.playerCurrentMoney = $scope.money.playerStartMoney;
-	}
+	// $scope.startGame = function() {
+	// 	$scope.money.playerCurrentMoney = $scope.money.playerStartMoney;
+	// }
 
-	$scope.correctAnswer = function() {
-		$scope.money.playerCurrentMoney += $scope.money.betMoney;
-	}
+	// $scope.correctAnswer = function() {
+	// 	$scope.money.playerCurrentMoney += $scope.money.betMoney;
+	// }
 
-	$scope.wrongAnswer = function() {
-		$scope.money.playerCurrentMoney -= $scope.money.betMoney;
-	}
+	// $scope.wrongAnswer = function() {
+	// 	$scope.money.playerCurrentMoney -= $scope.money.betMoney;
+	// }
 
-	$scope.country = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.country = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
-	$scope.trickCountry1 = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.trickCountry1 = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
-	$scope.trickCountry2 = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.trickCountry2 = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
-	$scope.trickCountry3 = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.trickCountry3 = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
-	$scope.trickCountry4 = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.trickCountry4 = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
-	$scope.trickCountry5 = {
-		countryName: "",
-		population: 0,
-		capital: ""
-	}
+	// $scope.trickCountry5 = {
+	// 	countryName: "",
+	// 	population: 0,
+	// 	capital: ""
+	// }
 
 
 
